@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+firebolt-sdk = "*"
+trio = "<0.22.0"
+jupyter = "*"
+matplotlib = "*"
+mpld3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
